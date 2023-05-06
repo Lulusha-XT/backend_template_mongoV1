@@ -40,3 +40,7 @@ app.use("uploads", express.static(path.resolve("uploads")));
     console.log(error);
   }
 })();
+
+// app.listen(3000, function () {
+//   console.log(`starting app on: ${address}`);
+// });
